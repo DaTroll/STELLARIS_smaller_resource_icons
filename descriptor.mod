@@ -5,5 +5,5 @@ tags={
 }
 picture="smaller_resource_icons.jpg"
 supported_version="3.*"
-path="%USERHOME%/Documents/Paradox Interactive/Stellaris/mod/Smaller Resource Icons"
+path="%USERPROFILE%/Documents/Paradox Interactive/Stellaris/mod/Smaller Resource Icons"
 remote_file_id="1639719556"
