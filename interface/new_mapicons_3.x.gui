@@ -41,6 +41,16 @@ guiTypes = {
 		}
 	}
 
+	containerWindowType = {
+		name = "detection_mapicon"		
+		size = { width = 19 height = 32 }
+		
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_cloaking_detection_icon"
+		}
+	}
+
 	##############################
 	##  	PLANET RESOURCES	##
 	##############################
@@ -173,6 +183,11 @@ guiTypes = {
 			name = "has_ftl_inhibitor"
 			quadTextureSprite = "GFX_has_ftl_magnet"
 			position = { x = 103 y = -18 }
+		}
+		iconType = {
+			name = "cloaked_state"
+			quadTextureSprite = "GFX_fleet_cloaked"
+			position = { x = 5 y = -3 }
 		}
 		OverlappingElementsBoxType = {
 			name = "ship_counters"
@@ -502,7 +517,7 @@ guiTypes = {
 			name = "resources"
 			position = { x = -60 y = 35 }
 			size = { x = 120 y = 32 }
-			spacing = 1.0
+			spacing = 8.0
 			format = center
 		}
 		
@@ -741,7 +756,7 @@ guiTypes = {
 			name = "resources"
 			position = { x = -88 y = 35 }
 			size = { x = 176 y = 32 }
-			spacing = 1.0
+			spacing = 8.0
 			format = center
 		}
 		
