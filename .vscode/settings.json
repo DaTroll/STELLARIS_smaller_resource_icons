@@ -1,0 +1,43 @@
+{
+    "deploy.reloaded": {
+        "values": {
+            "outputDir": {
+                "type": "code",
+                "code": "require('os').homedir() + '/'"
+            }
+        },
+        
+        "packages": [
+            {
+                "name": "Smaller Resource Icons",
+                "description": "Smaller Resource Icons",
+
+                "button": {
+                    "text": "Deploy to Smaller Resource Icons",
+                    
+                    "targets": [ "Smaller Resource Icons" ]
+                },
+
+                "files": [
+                    "**",
+                ],
+                "exclude": [
+                    ".vscode/**",
+                    "*.md"
+                ],
+
+                "deployOnSaveButton": [ "Smaller Resource Icons" ]
+            },
+        ],
+
+        "targets": [          
+            {
+                "type": "local",
+                "name": "Smaller Resource Icons",
+                "description": "Local folder",
+
+                "dir": "${outputDir}/Documents/Paradox Interactive/Stellaris/mod/smaller_resource_icons/"
+            },
+        ]
+    }
+}
